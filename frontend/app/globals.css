@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+  --color-marca-50: #ecfdf3;
+  --color-marca-600: #047857;
+  --color-marca-700: #065f46;
+  --color-marca-900: #064e3b;
+}
+
+body {
+  @apply bg-slate-50 text-slate-900 antialiased;
+}
